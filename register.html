@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> SignUp Form </title>
+	<style type="text/css">
+		input[type="submit"]
+		{
+			cursor:pointer;
+		}
+		body 
+		{
+  			background-color: linen;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h3>SignUp Here</h3>
+
+		<form action="register_php.php" method="post">
+			
+			<table>
+				<tr>
+					<td> Username: </td>
+					<td>
+						<input type="text" name="usr_nam">
+					</td>
+				</tr>
+				
+				<tr>
+					<td> Password: </td>
+				 	<td>
+						<input type="text" name="usr_pas">
+					</td>
+				</tr>
+				
+				<tr>
+					<td> Confirm Password: </td>
+				 	<td>
+						<input type="text" name="usr_re_pas">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="submit" name="submit" value="Signup">
+					</td>
+					<td>
+						Signed up already? <a href="login.html">LogIn</a>
+					</td>
+				</tr>
+				<tr>
+				    <td>
+				        Back to <a href="index.html">Contact Us</a> page
+				    </td>
+				</tr>
+				
+			</table>
+		
+		</form>
+
+	</center>
+
+</body>
+</html>
